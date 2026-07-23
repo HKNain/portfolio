@@ -139,8 +139,8 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-sm mb-8">
-          <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-500/30 bg-green-500/10 text-green-300 text-sm mb-8">
+          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
           Available for work
         </div>
 

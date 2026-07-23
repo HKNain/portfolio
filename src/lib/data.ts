@@ -8,6 +8,14 @@ export const personal = {
 
 export const projects = [
   {
+    title: "IIIT Sonepat Official Website",
+    description: "maintained the official website of IIIT Sonepat",
+    tags: ["MERN", "PM2"],
+    github: null,
+    live: "https://iiitsonepat.ac.in",
+    featured: true,
+  },
+  {
     title: "Student Marks Management Portal",
     description: "Developed a role-based marks management portal where teachers can assign and update student marks, while admins can monitor and manage all academic records through a centralized dashboard.",
     tags: ["MERN", "Full Stack", "Admin Dashboard", "Role-Based Access"],
@@ -24,11 +32,11 @@ export const projects = [
     featured: false,
   },
   {
-    title: "Real - time Chat App",
-    description: "A real-time chat application using the MERN stack and Socket.io, featuring instant messaging, authentication, and live communication with a responsive modern UI.",
-    tags: ["Socket.io", "WebSockets", "MongoDB", "Authentication"],
-    github: "https://github.com/HKNain/Nexus_Chat",
-    live: null,
+    title: "Competitive Programing CLI",
+    description: "A cli based tool for extracting question, running testcases, set template.",
+    tags: ["Javascript", "npm"],
+    github: "https://github.com/HKNain/cp-cli",
+    live: "https://www.npmjs.com/package/cpt-cli-hknain?activeTab=readme",
     featured: false,
   },
 ];
@@ -56,13 +64,13 @@ export const skillGroups = [
     label: "Database",
     color: "from-yellow-500/20 to-yellow-600/10 border-yellow-500/30",
     iconColor: "text-yellow-400",
-    skills: ["MongoDB", "MySQL"],
+    skills: ["MongoDB", "MySQL", "Redis"],
   },
   {
     label: "Tools",
     color: "from-orange-500/20 to-orange-600/10 border-orange-500/30",
     iconColor: "text-orange-400",
-    skills: ["Git","GitHub", "Vercel","Postman", "Jupyter Notebook", "VS Code"],
+    skills: ["Git","GitHub", "Vercel","Postman", "Jupyter Notebook", "Docker"],
   },
 ];
 
@@ -70,19 +78,19 @@ export const cpPlatforms = [
   {
     name: "Codeforces",
     handle: "HKNain",
-    rating: 1134,
+    rating: 1244,
     maxRating: 1900,
-    rank: "Newbie",
-    rankColor: "#9DA8A3",
+    rank: "Pupil",
+    rankColor: "#14BA18",
     profileUrl: "https://codeforces.com/profile/HKNain",
-    barColor: "#9DA8A3",
+    barColor: "#14BA18",
   },
   {
     name: "LeetCode",
     handle: "HKNain",
-    rating: 1705,
+    rating: 1784,
     maxRating: 2150,
-    rank: "Knight",
+    rank: "",
     rankColor: "#ffa116",
     profileUrl: "https://leetcode.com/HKNain",
     barColor: "#ffa116",
@@ -90,7 +98,7 @@ export const cpPlatforms = [
   {
     name: "CodeChef",
     handle: "hcnain",
-    rating: 1500,
+    rating: 1522,
     maxRating: 2000,
     rank: "2★",
     rankColor: "#07E821",
@@ -100,9 +108,9 @@ export const cpPlatforms = [
   {
     name: "AtCoder",
     handle: "HKNain",
-    rating: 440,
+    rating: 626,
     maxRating: 1200,
-    rank: "Brown",
+    rank: "7 Kyu",
     rankColor: "#804000",
     profileUrl: "https://atcoder.jp/users/HKNain",
     barColor: "#804000",
