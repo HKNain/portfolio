@@ -11,7 +11,7 @@ export const projects = [
     title: "IIIT Sonepat Official Website",
     description: "maintained the official website of IIIT Sonepat",
     tags: ["MERN", "PM2"],
-    github: null,
+    github: "https://github.com/HKNain",
     live: "https://iiitsonepat.ac.in",
     featured: true,
   },
